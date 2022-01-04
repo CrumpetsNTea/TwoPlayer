@@ -42,6 +42,7 @@ else
   @player2.turn = true
   elsif @player2.turn
     @player2.lives -= 1
+    puts "Incorrect, lose a life!"
     @player1.turn = true
     @player2.turn = false
   end
